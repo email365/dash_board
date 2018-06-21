@@ -28,7 +28,7 @@ interval = 1/12*minute*second
 app = dash.Dash('auth')
 auth = dash_auth.BasicAuth(
     app,
-    (('total', 'hstmeeting2018',),)
+    (('***', '***',),)
 )
 
 app.scripts.config.serve_locally = True
